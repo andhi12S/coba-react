@@ -1,0 +1,43 @@
+.myBG{
+    height: 100vh;
+    background: url("../assets/images/bg/bioskop.jpg");
+    background-size: cover;
+}
+.intro{
+    height: 300px;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    
+}
+
+.title{
+    font-size: 3rem;
+    font-weight: 800px;
+    line-height: 1;
+    text-shadow: 2px 2px rgb(85, 74, 74);
+    letter-spacing: 4px;  
+}
+
+.trending{
+    height: auto;
+    background: url("../assets/images/bg/romance.jpg");
+    background-size: cover;
+
+}
+.superhots{
+    height: auto;
+    background: url("../assets/images/bg/batman.jpg");
+    background-size: cover;
+
+}
+.movieImage{
+ height: auto;
+ background-color: black;
+ margin: 5px;
+ padding: 5px;
+}
+
+.Images{
+height: 500px;
+}

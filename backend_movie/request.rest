@@ -1,0 +1,27 @@
+GET http://localhost:5000/users  
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEsIm5hbWUiOiJkaWthIiwiZW1haWwiOiJhbmRoaWthQGdhaWwuY29tIiwiaWF0IjoxNjkxNzM2OTY3LCJleHAiOjE2OTE3MzY5ODJ9.gJ_JFWCuvQwALmrlhaNTOK1kWLs58H3xUF57a5AOsjs
+###
+POST  http://localhost:5000/users  
+Content-Type: application/json
+
+{
+    "name": "dika",
+    "email": "andhika@gail.com",
+    "password": "12345",
+    "confPassword": "12345"
+}
+
+###
+POST  http://localhost:5000/login  
+Content-Type: application/json
+
+{
+    "email": "andhika@gail.com",
+    "password": "12345"
+}
+
+###
+GET   http://localhost:5000/renew-token 
+
+###
+DELETE  http://localhost:5000/logout
